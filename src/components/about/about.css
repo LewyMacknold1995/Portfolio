@@ -10,7 +10,12 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    background: linear-gradient(
+        45deg, 
+        transparent, 
+        var(--color-primary), 
+        transparent
+    );
     display: grid;
     place-items: center;
 }
@@ -33,7 +38,7 @@
 }
 
 .about__card {
-    background-image: var(--color-bg-variant);
+    background: var(--color-bg-variant);
     border: 1px solid transparent; 
     border-radius: 1rem;
     padding: 2rem;
