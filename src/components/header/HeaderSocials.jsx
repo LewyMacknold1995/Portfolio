@@ -8,9 +8,9 @@ import {AiFillInstagram} from 'react-icons/ai'
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-        <a href="https://linkedin.com" target="_blank"><BsLinkedin/></a>
-        <a href="https://github.com" target="_blank"><AiFillGithub/></a>
-        <a href="https://instagram.com" target="_blank"><AiFillInstagram/></a>
+        <a href="https://www.linkedin.com/in/lewy-macknold-103089245/" target="_blank"><BsLinkedin/></a>
+        <a href="https://github.com/LewyMacknold1995" target="_blank"><AiFillGithub/></a>
+        <a href="https://www.instagram.com/lewymacknold/" target="_blank"><AiFillInstagram/></a>
     </div>
   )
 }
