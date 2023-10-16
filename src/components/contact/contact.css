@@ -1,5 +1,5 @@
 .container.contact__container {
-    width: 58%;
+    width: 80%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
@@ -57,6 +57,7 @@
     resize: none;
     color: var(--color-white);
   }
+
   
   /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
   @media screen and (max-width: 1024px) {

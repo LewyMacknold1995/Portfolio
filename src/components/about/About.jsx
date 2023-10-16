@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/bike pic.jpeg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -40,7 +40,7 @@ const About = () => {
           </div>
 
           <p>
-          I am actively pursuing my first Junior Frontend Developer role, eager to apply my skills and learn from seasoned professionals in the field. My goal is to contribute to innovative projects, collaborate with talented teams, and play a significant role in crafting user-centric applications.
+          I am pursuing my first Junior Frontend Developer role, eager to apply my skills and learn from seasoned professionals in the field. My goal is to contribute to innovative projects, collaborate with talented teams, and play a significant role in crafting user-centric applications. In my free time I love riding my motorcycle, playing video games, sports, gym and creating Tiktok videos.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

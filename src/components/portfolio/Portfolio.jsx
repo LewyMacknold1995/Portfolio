@@ -1,56 +1,57 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/Finance.png'
+import IMG2 from '../../assets/Screenshot 2023-10-16 at 11.05.57.png'
+import IMG3 from '../../assets/dkeeper1.png'
+import IMG4 from '../../assets/todo1.png'
+import IMG5 from '../../assets/simonsays.png'
+import IMG6 from '../../assets/tetris.jpeg'
 
-// DO NOT USE THE IMAGES IN PRODUCTION
+
+
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'Frontend Financial Visualisation Dashboard (Vite, React JS)',
+    github: 'https://github.com/LewyMacknold1995/Vite_React_SAAS_Dashboard',
+    demo: 'https://courageous-kringle-fc35f6.netlify.app/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    title: 'Frontend Data Finance Website (React JS, Tailwind CSS',
+    github: 'https://github.com/LewyMacknold1995/Data-Finance-Website',
+    demo: 'https://lewymacknold1995.github.io/Data-Finance-Website/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Figma dashboard UI kit for data design web apps',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+    title: 'Google Keep Clone - Note Taking App (React JS, Motoko)',
+    github: 'https://github.com/LewyMacknold1995/Google-Keep-Clone',
+    demo: 'https://lewymacknold1995.github.io/Google-keep-clone/dkeeper_assets/'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Maintaining tasks and tracking progress',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
+    title: 'To Do App (React JS, Javascript)',
+    github: 'https://github.com/LewyMacknold1995/To-Do-App',
+    demo: 'https://lewymacknold1995.github.io/todoapp/index.html'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    title: 'Simon Says Video Game (Javascript)',
+    github: 'https://github.com/LewyMacknold1995/SimonSays_Game',
+    demo: 'https://lewymacknold1995.github.io/SimonSaysGame/SimonSaysGame/'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    title: 'Tetris Video Game (Javascript)',
+    github: 'https://github.com/LewyMacknold1995/Tetris',
+    demo: 'https://lewymacknold1995.github.io/Tetris/index.html'
   }
 ]
 
@@ -67,7 +68,7 @@ const Portfolio = () => {
             return (
               <article key={id} className='portfolio__item'>
               <div className="portfolio__item-image">
-                <img src={image} alt={title} />
+                <img className="photo" src={image} alt={title} />
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
